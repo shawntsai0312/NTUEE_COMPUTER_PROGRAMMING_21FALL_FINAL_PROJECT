@@ -43,13 +43,13 @@ void DownState::initBackground()
 void DownState::initTextures()
 {
 	sf::Texture temp;
-	temp.loadFromFile("../resource/images/background2.png");
+	temp.loadFromFile("./resource/images/background2.png");
 	this->textures["BACKGROUND"] = temp;
-	temp.loadFromFile("../resource/images/cm kuan left.png");
+	temp.loadFromFile("./resource/images/cm kuan left.png");
 	this->textures["CM_KUAN_L"] = temp;
-	temp.loadFromFile("../resource/images/cm kuan right.png");
+	temp.loadFromFile("./resource/images/cm kuan right.png");
 	this->textures["CM_KUAN_R"] = temp;
-	temp.loadFromFile("../resource/images/platform2.png");
+	temp.loadFromFile("./resource/images/platform2.png");
 	this->textures["OSTAIR"] = temp;
 }
 

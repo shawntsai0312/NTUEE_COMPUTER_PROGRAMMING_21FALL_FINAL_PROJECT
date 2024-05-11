@@ -18,7 +18,7 @@ void MainMenuState::initButtons()
 void MainMenuState::initBackground()
 {
 	this->tBackground = new sf::Texture;
-	this->tBackground->loadFromFile("../resource/images/menu.png");
+	this->tBackground->loadFromFile("./resource/images/menu.png");
 	this->background.setTexture(tBackground);
 	this->background.setSize(sf::Vector2f(window->getSize().x, window->getSize().y));
 }
